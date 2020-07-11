@@ -1,7 +1,15 @@
 # Crime Patterns in Toronto (K-Prototypes and K-means Clustering)
 
 ### Introduction
-The aim of this project is to combine crime data obtained from the Toronto Police Service (TPS) with Toronto based climate data from the Government of Canada to uncover patterns in criminal activity in the city as it relates to climate. Clustering analysis is used to accomplish this task. Clustering is an unsupervised data mining technique that groups data such that objects in the same cluster share more similar properties than objects in other clusters. This project utilizes the K-prototypes algorithm to handle both the categorical and numerical features in the preprocessed dataset. Although the more popular K-means algorithm is also employed after some additional preprocessing, the more versatile K-protoypes algorithm yielded more insightful information due to its ability to handle catagorical data.
+The aim of this project is to combine crime data obtained from the Toronto Police Service (TPS) with Toronto based climate data from the Government of Canada to uncover patterns in criminal activity in the city as it relates to climate. Cluster analysis is employed to group the data such that objects in the same cluster share more similar properties than objects in other clusters.
+
+- Each record in the preprocessed dataset represents a unique occurrence, including details of the crime committed and temperature/climate on the day of the occurrence.
+- Substantial data cleansing and preprocessing was required to transform the raw data into a format suitable for clustering analysis.
+- The k-prototypes algorithm from the kmodes package is used to handle the mix of categorical and numerical features in the preprocessed dataset. 
+- The more popular k-means algorithm is also employed after some additional preprocessing, however the more versatile k-protoypes algorithm yielded more insightful information due to its ability to handle catagorical data.
+- The k-prototypes algorithm was able to locate 5 meaningful clusters. Each record was then assigned to one of these clusters.
+- Data visualization and the aggregation of records by cluster was used to understand the charateristics of each cluster. 
+- Code: [Link](https://github.com/calvinchoi21/toronto-crime-clustering/blob/master/Toronto_Crime.ipynb)
 
 ### Contents
 
