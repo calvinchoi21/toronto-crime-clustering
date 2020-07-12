@@ -1,5 +1,7 @@
 # Crime Patterns in Toronto (K-Prototypes and K-means Clustering)
 
+![](/images/clusters.jpg)
+
 ### Introduction
 The aim of this project is to combine crime data obtained from the Toronto Police Service (TPS) with Toronto based climate data from the Government of Canada to uncover patterns in criminal activity in the city as it relates to climate. Cluster analysis is employed to group the data such that objects in the same cluster share more similar properties than objects in other clusters.
 
